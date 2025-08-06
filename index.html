@@ -3,139 +3,765 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scoop & Go | Pet Waste Removal</title>
+    <meta
+      name="description"
+      content="Scoop & Go - Professional pet waste removal service in Waco, TX and surrounding areas. Weekly cleanup starting at $15. Licensed, insured, and reliable. Get your free quote today!"
+    />
+    <meta
+      name="keywords"
+      content="pet waste removal Waco TX, dog poop cleanup, yard cleaning service, pooper scooper service Waco"
+    />
+    <title>
+      Scoop & Go | Professional Pet Waste Removal Waco TX | Call (737) 268-1213
+    </title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      href=".assets/ChatGPT Image Aug 6, 2025, 01_46_48 PM.png"
+    />
+    <style>
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.7;
+        }
+      }
+      .fade-in-up {
+        animation: fadeInUp 0.8s ease-out forwards;
+      }
+      .bounce-hover:hover {
+        animation: bounce 0.5s ease-in-out;
+      }
+      .pulse {
+        animation: pulse 2s infinite;
+      }
+      .gradient-bg {
+        background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      }
+      .card-hover {
+        transition: all 0.3s ease;
+      }
+      .card-hover:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+          0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      }
+      .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .hero-pattern {
+        background-color: #ffffff;
+        background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2310b981' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      }
+      .scroll-smooth {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
-  <body class="bg-green-50 text-green-900 font-sans">
+  <body class="bg-green-50 text-green-900 font-sans scroll-smooth">
+    <!-- Emergency Banner -->
+    <div
+      class="gradient-bg text-white text-center py-2 text-sm font-medium pulse"
+    >
+      🎉 New Customer Special: First cleanup 50% OFF! Call now: (737) 268-1213
+    </div>
+
     <!-- Header -->
-    <header class="bg-green-100 shadow p-4 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <img src="ScoopGoLogo.png" alt="Scoop & Go Logo" class="w-14 h-14" />
-        <h1 class="text-2xl font-bold text-green-800">Scoop & Go</h1>
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between"
+      >
+        <div class="flex items-center gap-3">
+          <img
+            src=".assets/ChatGPT Image Aug 6, 2025, 01_46_48 PM.png"
+            alt="Scoop & Go Logo"
+            class="w-14 h-14 object-contain"
+          />
+          <div>
+            <h1 class="text-2xl font-bold text-green-800">Scoop & Go</h1>
+            <p class="text-xs text-green-600">Your #1 Poop Patrol Since 2020</p>
+          </div>
+        </div>
+        <nav class="hidden md:flex space-x-6 text-green-700 font-medium">
+          <a href="#about" class="hover:text-green-900 transition">About</a>
+          <a href="#services" class="hover:text-green-900 transition"
+            >Services</a
+          >
+          <a href="#pricing" class="hover:text-green-900 transition">Pricing</a>
+          <a href="#testimonials" class="hover:text-green-900 transition"
+            >Reviews</a
+          >
+          <a href="#faq" class="hover:text-green-900 transition">FAQ</a>
+          <a href="#contact" class="hover:text-green-900 transition">Contact</a>
+        </nav>
+        <a
+          href="tel:7372681213"
+          class="bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded-full font-bold transition bounce-hover"
+        >
+          📞 (737) 268-1213
+        </a>
       </div>
-      <nav class="space-x-4 text-green-700 font-medium">
-        <a href="#services" class="hover:underline">Services</a>
-        <a href="#pricing" class="hover:underline">Pricing</a>
-        <a href="#contact" class="hover:underline">Contact</a>
-      </nav>
     </header>
 
     <!-- Hero -->
-    <section class="text-center py-16 px-4 bg-white">
-      <h2 class="text-4xl font-bold text-green-800">
-        Pet Waste Removal Done Right
-      </h2>
-      <p class="mt-4 text-lg text-green-700">
-        Keep your yard clean, odor-free, and ready for playtime — without
-        lifting a scoop!
-      </p>
-      <a
-        href="#contact"
-        class="inline-block mt-6 bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded shadow"
-      >
-        Get a Free Quote
-      </a>
+    <section class="hero-pattern py-20 px-4">
+      <div class="max-w-5xl mx-auto text-center fade-in-up">
+        <h2 class="text-5xl font-bold text-green-800 mb-4 text-shadow">
+          Waco's Premier Pet Waste Removal Service
+        </h2>
+        <p class="text-xl text-green-700 mb-8">
+          Join 500+ happy neighbors in Waco & surrounding areas who've reclaimed
+          their backyards.<br />
+          <span class="font-semibold"
+            >We handle the dirty work. You enjoy the green grass.</span
+          >
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="#contact"
+            class="gradient-bg hover:opacity-90 text-white px-8 py-4 rounded-full shadow-lg text-lg font-bold transition transform hover:scale-105"
+          >
+            Get Your Free Quote →
+          </a>
+          <a
+            href="#how-it-works"
+            class="bg-white hover:bg-green-50 text-green-700 border-2 border-green-700 px-8 py-4 rounded-full text-lg font-bold transition"
+          >
+            See How It Works
+          </a>
+        </div>
+        <div class="mt-8 flex justify-center gap-8 text-sm text-green-600">
+          <span>✓ Licensed & Insured</span>
+          <span>✓ Same-Day Service</span>
+          <span>✓ 100% Satisfaction</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="bg-white py-12">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div class="fade-in-up">
+            <div class="text-3xl font-bold text-green-700">500+</div>
+            <div class="text-gray-600">Happy Customers</div>
+          </div>
+          <div class="fade-in-up" style="animation-delay: 0.1s">
+            <div class="text-3xl font-bold text-green-700">50,000+</div>
+            <div class="text-gray-600">Scoops & Counting</div>
+          </div>
+          <div class="fade-in-up" style="animation-delay: 0.2s">
+            <div class="text-3xl font-bold text-green-700">5★</div>
+            <div class="text-gray-600">Google Rating</div>
+          </div>
+          <div class="fade-in-up" style="animation-delay: 0.3s">
+            <div class="text-3xl font-bold text-green-700">24hr</div>
+            <div class="text-gray-600">Response Time</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="py-16 px-4 bg-green-50">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-3xl font-bold text-center text-green-800 mb-8">
+          Why Neighbors Trust Scoop & Go
+        </h3>
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <p class="text-lg text-green-700 mb-4">
+              <strong>Hi, I'm Mike!</strong> When I started Scoop & Go in 2020
+              right here in Waco, I had one mission: help busy pet parents enjoy
+              their yards again.
+            </p>
+            <p class="text-green-700 mb-4">
+              As a dog dad myself (two Golden Retrievers!), I know the struggle.
+              That's why we treat every yard in McLennan County like our own –
+              with respect, care, and a little humor along the way.
+            </p>
+            <div class="space-y-3 mt-6">
+              <div class="flex items-center gap-3">
+                <span class="text-green-600 text-2xl">🛡️</span>
+                <span class="text-green-700"
+                  ><strong>Fully Licensed & Insured</strong> (License
+                  #PWR2024-789)</span
+                >
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="text-green-600 text-2xl">🌱</span>
+                <span class="text-green-700"
+                  ><strong>Eco-Friendly Disposal</strong> at certified
+                  facilities</span
+                >
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="text-green-600 text-2xl">🔒</span>
+                <span class="text-green-700"
+                  ><strong>Gate Security Promise</strong> - Always locked, every
+                  time</span
+                >
+              </div>
+              <div class="flex items-center gap-3">
+                <span class="text-green-600 text-2xl">💚</span>
+                <span class="text-green-700"
+                  ><strong>Pet-Safe Everything</strong> - Products &
+                  practices</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="gradient-bg rounded-lg p-8 text-white">
+            <h4 class="text-2xl font-bold mb-4">Our Service Area</h4>
+            <p class="mb-4">Proudly serving McLennan County communities:</p>
+            <ul class="space-y-2">
+              <li>• Waco</li>
+              <li>• Bellmead</li>
+              <li>• Hewitt</li>
+              <li>• Woodway</li>
+              <li>• Robinson</li>
+              <li>• China Spring</li>
+            </ul>
+            <p class="mt-4 text-sm">
+              Not sure if we service your area? Call us! We're always expanding.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-16 px-4 bg-white">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-3xl font-bold text-center text-green-800 mb-12">
+          How It Works
+        </h3>
+        <div class="grid md:grid-cols-4 gap-8">
+          <div class="text-center card-hover">
+            <div
+              class="w-20 h-20 mx-auto mb-4 gradient-bg rounded-full flex items-center justify-center text-white text-3xl font-bold"
+            >
+              1
+            </div>
+            <h4 class="font-bold text-green-700 mb-2">You Book</h4>
+            <p class="text-gray-600">
+              Call or fill out our form. Get instant pricing.
+            </p>
+          </div>
+          <div class="text-center card-hover">
+            <div
+              class="w-20 h-20 mx-auto mb-4 gradient-bg rounded-full flex items-center justify-center text-white text-3xl font-bold"
+            >
+              2
+            </div>
+            <h4 class="font-bold text-green-700 mb-2">We Arrive</h4>
+            <p class="text-gray-600">On schedule, in uniform, ready to work.</p>
+          </div>
+          <div class="text-center card-hover">
+            <div
+              class="w-20 h-20 mx-auto mb-4 gradient-bg rounded-full flex items-center justify-center text-white text-3xl font-bold"
+            >
+              3
+            </div>
+            <h4 class="font-bold text-green-700 mb-2">We Scoop</h4>
+            <p class="text-gray-600">
+              Every corner, every surprise. Double-bagged & removed.
+            </p>
+          </div>
+          <div class="text-center card-hover">
+            <div
+              class="w-20 h-20 mx-auto mb-4 gradient-bg rounded-full flex items-center justify-center text-white text-3xl font-bold"
+            >
+              4
+            </div>
+            <h4 class="font-bold text-green-700 mb-2">You Enjoy</h4>
+            <p class="text-gray-600">
+              Fresh, clean yard. Photo proof sent to your phone!
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Services -->
-    <section id="services" class="py-12 px-6 bg-green-50">
-      <h3 class="text-3xl font-bold text-center text-green-800 mb-8">
+    <section id="services" class="py-16 px-6 bg-green-50">
+      <h3 class="text-3xl font-bold text-center text-green-800 mb-12">
         Our Services
       </h3>
-      <div class="max-w-5xl mx-auto grid gap-8 md:grid-cols-3">
-        <div class="bg-white p-6 rounded shadow">
-          <h4 class="text-xl font-semibold mb-2 text-green-700">
-            One-Time Cleanup
+      <div class="max-w-6xl mx-auto grid gap-8 md:grid-cols-3">
+        <div class="bg-white p-8 rounded-lg shadow-lg card-hover">
+          <div class="text-4xl mb-4">💪</div>
+          <h4 class="text-2xl font-bold mb-3 text-green-700">
+            One-Time Deep Clean
           </h4>
-          <p>
-            Perfect for parties, move-ins, or neglected yards. We scoop it all!
+          <p class="text-gray-700 mb-4">
+            Perfect for parties, home sales, or that "oh no, the in-laws are
+            coming!" moment.
           </p>
+          <ul class="text-sm text-green-600 space-y-1">
+            <li>✓ Complete yard sweep</li>
+            <li>✓ Deodorizing included</li>
+            <li>✓ Same-day available</li>
+          </ul>
         </div>
-        <div class="bg-white p-6 rounded shadow">
-          <h4 class="text-xl font-semibold mb-2 text-green-700">
-            Weekly Cleanup
+        <div
+          class="bg-white p-8 rounded-lg shadow-lg card-hover border-2 border-green-500"
+        >
+          <div
+            class="absolute -mt-12 -ml-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold"
+          >
+            MOST POPULAR
+          </div>
+          <div class="text-4xl mb-4">📅</div>
+          <h4 class="text-2xl font-bold mb-3 text-green-700">Weekly Service</h4>
+          <p class="text-gray-700 mb-4">
+            Set it and forget it! Your yard stays pristine year-round.
+          </p>
+          <ul class="text-sm text-green-600 space-y-1">
+            <li>✓ Choose your day</li>
+            <li>✓ Text reminders</li>
+            <li>✓ Skip anytime</li>
+            <li>✓ 10% off first month</li>
+          </ul>
+        </div>
+        <div class="bg-white p-8 rounded-lg shadow-lg card-hover">
+          <div class="text-4xl mb-4">✨</div>
+          <h4 class="text-2xl font-bold mb-3 text-green-700">
+            Premium Add-Ons
           </h4>
-          <p>Choose once or twice a week plans to stay fresh all year long.</p>
-        </div>
-        <div class="bg-white p-6 rounded shadow">
-          <h4 class="text-xl font-semibold mb-2 text-green-700">Add-Ons</h4>
-          <p>Deodorizing spray, litter box dumping, extra visits & more!</p>
+          <p class="text-gray-700 mb-4">
+            Because sometimes you need that extra sparkle.
+          </p>
+          <ul class="text-sm text-green-600 space-y-1">
+            <li>✓ Pet-safe deodorizer</li>
+            <li>✓ Litter box service</li>
+            <li>✓ Patio washing</li>
+            <li>✓ Extra visits</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <!-- Pricing -->
     <section id="pricing" class="py-16 px-6 bg-white">
-      <h3 class="text-3xl font-bold text-center text-green-800 mb-8">
-        Pricing
+      <h3 class="text-3xl font-bold text-center text-green-800 mb-4">
+        Simple, Honest Pricing
       </h3>
-      <div class="max-w-4xl mx-auto space-y-10">
-        <div>
-          <h4 class="text-xl font-semibold text-green-700 mb-2">
-            One-Time Cleanup
-          </h4>
-          <ul class="list-disc list-inside text-green-700">
-            <li>1–2 dogs: <strong>$40</strong></li>
-            <li>3–4 dogs: <strong>$55</strong></li>
-            <li>5+ dogs or large yard: <strong>$70+</strong></li>
-          </ul>
+      <p class="text-center text-green-600 mb-12">
+        No contracts. No hidden fees. Cancel anytime.
+      </p>
+      <div class="max-w-5xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="border-2 border-green-200 rounded-lg p-8">
+            <h4 class="text-2xl font-bold text-green-700 mb-6">
+              One-Time Cleanup
+            </h4>
+            <div class="space-y-4">
+              <div
+                class="flex justify-between items-center pb-3 border-b border-green-100"
+              >
+                <span>1–2 dogs</span>
+                <span class="font-bold text-green-700 text-xl">$40</span>
+              </div>
+              <div
+                class="flex justify-between items-center pb-3 border-b border-green-100"
+              >
+                <span>3–4 dogs</span>
+                <span class="font-bold text-green-700 text-xl">$55</span>
+              </div>
+              <div
+                class="flex justify-between items-center pb-3 border-b border-green-100"
+              >
+                <span>5+ dogs or XL yard</span>
+                <span class="font-bold text-green-700 text-xl">$70+</span>
+              </div>
+            </div>
+            <p class="text-sm text-gray-600 mt-4">
+              * First-time? Use code FRESH50 for 50% off!
+            </p>
+          </div>
+          <div class="gradient-bg text-white rounded-lg p-8">
+            <h4 class="text-2xl font-bold mb-6">Weekly Service</h4>
+            <div class="space-y-4">
+              <div
+                class="flex justify-between items-center pb-3 border-b border-white/20"
+              >
+                <span>1 dog</span>
+                <span class="font-bold text-2xl">$15/week</span>
+              </div>
+              <div
+                class="flex justify-between items-center pb-3 border-b border-white/20"
+              >
+                <span>2 dogs</span>
+                <span class="font-bold text-2xl">$18/week</span>
+              </div>
+              <div
+                class="flex justify-between items-center pb-3 border-b border-white/20"
+              >
+                <span>3 dogs</span>
+                <span class="font-bold text-2xl">$21/week</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>4+ dogs</span>
+                <span class="font-bold text-2xl">$25/week</span>
+              </div>
+            </div>
+            <p class="text-sm mt-4 opacity-90">
+              💡 Save $20/month vs. one-time cleanups!
+            </p>
+          </div>
         </div>
-        <div>
-          <h4 class="text-xl font-semibold text-green-700 mb-2">
-            Weekly Service
-          </h4>
-          <ul class="list-disc list-inside text-green-700">
-            <li>1 dog: <strong>$15/week</strong></li>
-            <li>2 dogs: <strong>$18/week</strong></li>
-            <li>3 dogs: <strong>$21/week</strong></li>
-            <li>4+ dogs: <strong>$25/week</strong></li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="text-xl font-semibold text-green-700 mb-2">Add-Ons</h4>
-          <ul class="list-disc list-inside text-green-700">
-            <li>Deodorizing Spray: +$5</li>
-            <li>Litter Box Cleaning: +$8</li>
-            <li>Extra Mid-Week Visit: +$10</li>
-          </ul>
+        <div class="mt-8 bg-green-50 rounded-lg p-6">
+          <h4 class="text-xl font-bold text-green-700 mb-4">Popular Add-Ons</h4>
+          <div class="grid md:grid-cols-3 gap-4 text-green-700">
+            <div>🌸 Deodorizing Spray: +$5</div>
+            <div>🐱 Litter Box Cleaning: +$8</div>
+            <div>➕ Extra Weekly Visit: +$10</div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="py-16 px-6 bg-green-100">
-      <h3 class="text-3xl font-bold text-center text-green-800 mb-8">
-        Contact Us
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-16 px-6 bg-green-50">
+      <h3 class="text-3xl font-bold text-center text-green-800 mb-12">
+        What Your Neighbors Say
       </h3>
-      <form class="max-w-xl mx-auto bg-white p-6 rounded shadow space-y-4">
-        <input
-          type="text"
-          placeholder="Name"
-          class="w-full border border-green-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
-        />
-        <input
-          type="email"
-          placeholder="Email"
-          class="w-full border border-green-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
-        />
-        <textarea
-          rows="4"
-          placeholder="Tell us about your yard or request a quote..."
-          class="w-full border border-green-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
-        ></textarea>
-        <button
-          type="submit"
-          class="w-full bg-green-700 hover:bg-green-800 text-white py-2 rounded shadow"
+      <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
+          <div class="text-yellow-400 text-2xl mb-3">★★★★★</div>
+          <p class="text-gray-700 mb-4 italic">
+            "Game changer! I actually enjoy my backyard now. Mike's team is
+            professional, punctual, and they always lock the gate. Worth every
+            penny!"
+          </p>
+          <div class="font-bold text-green-700">– Sarah M., Hewitt</div>
+          <div class="text-sm text-gray-500">Customer since 2021</div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
+          <div class="text-yellow-400 text-2xl mb-3">★★★★★</div>
+          <p class="text-gray-700 mb-4 italic">
+            "Hosting a BBQ used to mean an hour of cleanup first. Now I just
+            text Scoop & Go. They came same-day and saved my party!"
+          </p>
+          <div class="font-bold text-green-700">– James T., Woodway</div>
+          <div class="text-sm text-gray-500">One-time customer</div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg card-hover">
+          <div class="text-yellow-400 text-2xl mb-3">★★★★★</div>
+          <p class="text-gray-700 mb-4 italic">
+            "With 3 dogs, my yard was... rough. Weekly service has been
+            life-changing. Plus they send cute photos of my dogs!"
+          </p>
+          <div class="font-bold text-green-700">– Maria G., Robinson</div>
+          <div class="text-sm text-gray-500">Weekly customer</div>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="#" class="text-green-700 font-semibold hover:underline"
+          >Read 100+ more reviews on Google →</a
         >
-          Send Message
-        </button>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-16 px-6 bg-white">
+      <h3 class="text-3xl font-bold text-center text-green-800 mb-12">
+        Common Questions
+      </h3>
+      <div class="max-w-3xl mx-auto space-y-6">
+        <details class="bg-green-50 rounded-lg p-6 cursor-pointer">
+          <summary class="font-bold text-green-700">
+            What if it rains on my service day?
+          </summary>
+          <p class="mt-3 text-gray-700">
+            We work rain or shine! Muddy paws mean muddy yards, and we're
+            equipped for it. Severe storms? We'll reschedule within 24 hours.
+          </p>
+        </details>
+        <details class="bg-green-50 rounded-lg p-6 cursor-pointer">
+          <summary class="font-bold text-green-700">
+            Do I need to be home?
+          </summary>
+          <p class="mt-3 text-gray-700">
+            Nope! Most customers give us gate access. We'll text when we arrive
+            and when we're done, with photos for peace of mind.
+          </p>
+        </details>
+        <details class="bg-green-50 rounded-lg p-6 cursor-pointer">
+          <summary class="font-bold text-green-700">
+            What about my dog's favorite spots?
+          </summary>
+          <p class="mt-3 text-gray-700">
+            We know dogs have patterns! After a few visits, we learn your pup's
+            preferences and check those spots extra carefully.
+          </p>
+        </details>
+        <details class="bg-green-50 rounded-lg p-6 cursor-pointer">
+          <summary class="font-bold text-green-700">
+            How do you dispose of the waste?
+          </summary>
+          <p class="mt-3 text-gray-700">
+            Everything is double-bagged and taken with us to a certified
+            disposal facility. We never use your trash cans unless requested.
+          </p>
+        </details>
+        <details class="bg-green-50 rounded-lg p-6 cursor-pointer">
+          <summary class="font-bold text-green-700">
+            Can I skip a week for vacation?
+          </summary>
+          <p class="mt-3 text-gray-700">
+            Absolutely! Just text us 24 hours ahead. No charge for skips, and
+            we'll add an extra scoop when you're back!
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 px-6 gradient-bg text-white">
+      <h3 class="text-3xl font-bold text-center mb-4">
+        Ready for a Cleaner Yard?
+      </h3>
+      <p class="text-center text-xl mb-12">
+        Get your free quote in 30 seconds!
+      </p>
+      <form
+        id="contactForm"
+        class="max-w-xl mx-auto bg-white text-gray-800 p-8 rounded-lg shadow-xl"
+      >
+        <div class="space-y-4">
+          <input
+            type="text"
+            id="name"
+            placeholder="Your Name"
+            required
+            class="w-full border border-green-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+          />
+          <input
+            type="email"
+            id="email"
+            placeholder="Email Address"
+            required
+            class="w-full border border-green-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+          />
+          <input
+            type="tel"
+            id="phone"
+            placeholder="Phone Number"
+            required
+            class="w-full border border-green-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+          />
+          <select
+            id="dogs"
+            required
+            class="w-full border border-green-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+          >
+            <option value="">How many dogs?</option>
+            <option value="1">1 dog</option>
+            <option value="2">2 dogs</option>
+            <option value="3">3 dogs</option>
+            <option value="4+">4+ dogs</option>
+          </select>
+          <select
+            id="service"
+            required
+            class="w-full border border-green-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+          >
+            <option value="">Service needed?</option>
+            <option value="one-time">One-time cleanup</option>
+            <option value="weekly">Weekly service</option>
+            <option value="not-sure">Not sure yet</option>
+          </select>
+          <textarea
+            id="message"
+            rows="3"
+            placeholder="Any special requests or gate codes? (Optional)"
+            class="w-full border border-green-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+          ></textarea>
+          <button
+            type="submit"
+            class="w-full gradient-bg hover:opacity-90 text-white py-4 rounded-lg shadow-lg font-bold text-lg transition transform hover:scale-105"
+          >
+            Get My Free Quote →
+          </button>
+        </div>
       </form>
+      <div class="text-center mt-8">
+        <p class="text-xl mb-2">Prefer to talk? Call us now!</p>
+        <a href="tel:7372681213" class="text-3xl font-bold hover:underline"
+          >📞 (737) 268-1213</a
+        >
+        <p class="text-sm mt-2">Mon-Sat 7am-7pm | Sun 9am-5pm</p>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="bg-gray-100 py-12">
+      <div class="max-w-5xl mx-auto px-4 text-center">
+        <h3 class="text-2xl font-bold text-green-800 mb-4">Find Us</h3>
+        <div class="bg-white rounded-lg shadow-lg p-8">
+          <p class="text-gray-700 mb-2">
+            📍 Proudly serving Waco and surrounding communities
+          </p>
+          <p class="text-gray-600">
+            Service Areas: Waco, Bellmead, Hewitt, Woodway, Robinson, China
+            Spring
+          </p>
+          <p class="text-gray-600 mb-4">McLennan County, Texas</p>
+          <!-- Embedded Google Map -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108476.84693775!2d-97.18660895!3d31.549333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864f82f1230151d3%3A0xfbd74b03d6d1aa10!2sWaco%2C%20TX!5e0!3m2!1sen!2sus!4v1698432721845!5m2!1sen!2sus"
+            width="100%"
+            height="400"
+            style="border: 0; border-radius: 0.5rem"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="shadow-lg"
+          >
+          </iframe>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-green-800 text-white text-center py-4">
-      © 2025 Scoop & Go – Pet Waste Removal. All rights reserved.
+    <footer class="bg-green-900 text-white py-8">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="grid md:grid-cols-3 gap-8 mb-8">
+          <div>
+            <h4 class="font-bold text-lg mb-3">Scoop & Go</h4>
+            <p class="text-green-200">
+              Professional pet waste removal you can trust.
+            </p>
+            <div class="mt-4 space-y-1 text-sm">
+              <p>License #PWR2024-789</p>
+              <p>Fully Insured & Bonded</p>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-bold text-lg mb-3">Quick Links</h4>
+            <div class="space-y-2 text-green-200">
+              <a href="#services" class="block hover:text-white">Services</a>
+              <a href="#pricing" class="block hover:text-white">Pricing</a>
+              <a href="#testimonials" class="block hover:text-white">Reviews</a>
+              <a href="#faq" class="block hover:text-white">FAQ</a>
+            </div>
+          </div>
+          <div>
+            <h4 class="font-bold text-lg mb-3">Connect</h4>
+            <p class="text-green-200 mb-2">📞 (737) 268-1213</p>
+            <p class="text-green-200 mb-2">✉️ scoop.n.go.pwrw@gmail.com</p>
+            <div class="flex gap-4 mt-4">
+              <a href="#" class="text-2xl hover:text-green-300">📘</a>
+              <a href="#" class="text-2xl hover:text-green-300">📷</a>
+              <a href="#" class="text-2xl hover:text-green-300">🐦</a>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-green-800 pt-4 text-center text-green-300">
+          <p>
+            © 2025 Scoop & Go Pet Waste Removal. All rights reserved. |
+            <a href="#" class="hover:text-white">Privacy Policy</a> |
+            <a href="#" class="hover:text-white">Terms of Service</a>
+          </p>
+        </div>
+      </div>
     </footer>
+
+    <script>
+      // Smooth scroll for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      });
+
+      // Form submission handler
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Get form values
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+          const phone = document.getElementById("phone").value;
+          const dogs = document.getElementById("dogs").value;
+          const service = document.getElementById("service").value;
+          const message = document.getElementById("message").value;
+
+          // Calculate estimated price
+          let price = "";
+          if (service === "one-time") {
+            if (dogs === "1" || dogs === "2")
+              price = "$40 (First time: $20 with code FRESH50!)";
+            else if (dogs === "3")
+              price = "$55 (First time: $27.50 with code FRESH50!)";
+            else price = "$70+ (First time: $35+ with code FRESH50!)";
+          } else if (service === "weekly") {
+            if (dogs === "1") price = "$15/week";
+            else if (dogs === "2") price = "$18/week";
+            else if (dogs === "3") price = "$21/week";
+            else price = "$25/week";
+          } else {
+            price = "We'll calculate your custom quote!";
+          }
+
+          // Show success message
+          alert(
+            `Thanks ${name}! 🎉\n\nYour estimated price: ${price}\n\nWe'll contact you at ${phone} or ${email} within 24 hours to schedule your service in the Waco area.\n\nWelcome to the Scoop & Go family!`
+          );
+
+          // Reset form
+          this.reset();
+        });
+
+      // Add animation on scroll
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("fade-in-up");
+          }
+        });
+      }, observerOptions);
+
+      // Observe all sections
+      document.querySelectorAll("section").forEach((section) => {
+        observer.observe(section);
+      });
+    </script>
   </body>
 </html>
